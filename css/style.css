@@ -1,0 +1,291 @@
+﻿*{margin: 0px; padding: 0px;}
+/* Tudo esta dentro do container */
+#container{
+  width: 88%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* Cebeçalho */
+#header{
+  height: 150px;
+  background-color: #ffffff;
+}
+/* Imagem da logo */
+#img-logo{
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin-left: 30px;
+}
+/* Texto do titulo */
+#titulo-logo{
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 50px;
+  float: left;
+  color: #8B0000;
+}
+/* Link texto do titulo */
+#titulo-logo a{
+  text-decoration: none;
+}
+/* Menu principal */
+.menu-principal{
+  margin-top: 20px;
+  overflow: hidden;
+  height: 50px;
+  background-image: linear-gradient(to right, #000000, #800000, #800000, #8B0000);
+  width: 100%;
+}
+/* Links dentro da barra de navegação */
+.menu-principal a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+/* Alterar o fundo ao passar o mouse */
+.menu-principal a:hover {
+  background: #B22222;
+  color: #FFFFF0;
+}
+#conteudo div{
+    display: inline-block;
+}
+/* Conteudo da pagina */
+#conteudo{
+  height: 100%; 
+  width: 100%; 
+  background-image: linear-gradient(to right, #800000, #800000, #8B0000);
+}
+#cont1{
+  font-weight: bold;
+  color: #f2f2f2;
+  margin-top: 30px;
+  width: 300px;
+  height: 300px;
+  margin-left: 90px;
+}
+#cont2{
+  font-weight: bold;
+  margin-top: 30px;
+  color: #f2f2f2;
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+}
+
+#cont3{
+  font-weight: bold;
+  margin-top: 30px;
+  color: #f2f2f2;
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+}
+/* Rodape principal */
+.footer-principal div{
+    display: inline-block;
+}
+.footer-principal{
+  width: 100%;
+  border-top: 3px solid #e0e0e0;
+  height: 300px;
+  background-color: #FFF; 
+  margin-top: 5px; 
+  margin-bottom: 20px; 
+  box-shadow: 0px -5px 3px #e0e0e0;
+ 
+}
+/* Texto do rodape principal*/
+#div1{
+  margin-top: 30px;
+  width: 300px;
+  height: 300px;
+  margin-left: 150px;
+}
+#div2{
+  margin-top: 30px;
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+}
+
+#div3{
+  margin-top: 30px;
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+}
+#titulo-div{
+  color: #8B0000;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#texto-div{
+  color: #000000; 
+  font-size: 20px;
+}
+.footer-secundario{
+  height: 50px;
+  background-image: linear-gradient(to right, #800000, #800000, #8B0000);
+}
+/* Texto do rodape secundario */
+.footer-secundario{
+  padding-top: 20px; 
+  padding-bottom: 10px;
+  color: #FFF;
+  font-size: 14px;
+}
+.teste{
+  height: 100px;
+  width: 100px;
+  color:#fff;
+}
+/* Planos em Layout */
+.bloco-principal{
+  width: 100%;
+  height: 100%;
+}
+
+.bloco{
+  width: 21.5%;
+  height: 450px;
+  margin-right: 4.6%;
+  float: left;
+}
+
+.bloco1{
+  width: 21.5%;
+  height: 450px;
+  float: left;
+}
+
+.parte-de-cima{
+  position: relative;
+  width: 100%;
+  height: 40%;
+  background-color: rgb(192, 176, 207);
+}
+.parte-de-baixo{
+  position: relative;
+  width: 100%;
+  height: 60%;
+  background-color: rgb(153, 51, 51);
+}
+/* Formulario */
+.formulario{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 2px solid #e0e0e0;
+  position: relative;
+  width: 500px;
+  height: 100%;
+  background-color: rgb(192, 176, 207);
+}
+/* Sobre a empresa */
+.sobre{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#sobre1{
+  width: 40%;
+  height: 300px;
+  margin-right: 10%;
+  float: left;
+  position: relative;
+  margin-left: 4%;
+}
+
+#sobre2{
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+#img-sobre {
+  width: 100%;
+  height: 300px
+}
+.empresa div{
+    display: inline-block;
+}
+.empresa{
+  width: 100%;
+  height: 350px;
+  background-color: #FFF; 
+  margin-top: 40px; 
+  margin-bottom: 40px; 
+ 
+}
+#texto-sobre{
+  color: #000000; 
+  font-size: 20px;
+  text-align: justify;
+}
+/* Rodape principal */
+.plano-principal div{
+    display: inline-block;
+}
+.plano-principal{
+  width: 100%;
+  height: 600px;
+  border-top: 3px solid #e0e0e0;
+  background-color: #FFF; 
+  margin-top: 5px; 
+  margin-bottom: 20px; 
+  box-shadow: 0px -5px 3px #e0e0e0;
+ 
+}
+/* Texto do rodape principal*/
+#plano1{
+  margin-top: 30px;
+  width: 300px;
+  height: 300px;
+  margin-left: 4%;
+}
+#plano2{
+  margin-top: 30px;
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+}
+
+#plano3{
+  margin-top: 30px;
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+}
+/* Elemento de classe "botao" */
+.botao-cadastro {
+    font-size: 1.2em;
+    background: #B22222;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(255,0,0,0.3);
+    text-shadow: 1px 1px 1px rgba(255,0,0,0.3);
+    position: absolute;
+    top: 125%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+/* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
+.botao-cadastro:hover {
+    background: #ff9e81;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+/* Elementos de classe botão e de tag <select> */
+.botao-cadastro, select{
+    cursor: pointer;
+}
